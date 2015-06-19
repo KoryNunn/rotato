@@ -1,0 +1,29 @@
+{
+  "name": "rotato",
+  "version": "1.0.0",
+  "description": "Rotate a dataURI by 90deg increments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchexample": "watchify ./example/index.js -o ./example/index.browser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crel": "^2.1.8",
+    "image-to-data-uri": "0.0.1",
+    "to-datauri": "^1.0.0"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoryNunn/rotato.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/rotato/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/rotato"
+}
